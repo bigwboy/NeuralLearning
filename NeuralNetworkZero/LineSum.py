@@ -4,7 +4,7 @@
 #__OUTHOR__:guangguang
 #线性和
 class LineSum():
-	def __index__(self,W,X,B):
+	def __init__(self,W,X,B):
 		self.W=W
 		self.X=X
 		self.B=B

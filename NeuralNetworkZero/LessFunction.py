@@ -5,7 +5,7 @@
 
 #损失函数
 class LessFunctions():
-	def __index__(self,Yhat,Y):
+	def __init__(self,Yhat,Y):
 		self.Yhat=Yhat
 		self.Y=Y
 	def Less(self):
