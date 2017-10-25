@@ -3,6 +3,7 @@
 #VERSION:1.0
 #__OUTHOR__:guangguang
 
+import numpy as nu
 
 
 
