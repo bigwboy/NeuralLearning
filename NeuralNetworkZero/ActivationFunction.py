@@ -5,18 +5,8 @@
 #Email:kevinliu830829@163.com
 import math,numpy
 
-#线性和
-class LineSum():
-	def __index__(self,W,X,B):
-		self.W=W
-		self.X=X
-		self.B=B
-	def Sum(self):
-		Z=self.W*self.X+self.B
-		return Z
-
 #激励函数
-class ActivationFunctions():
+class ActivationFunction():
 	def __init__(self,Z):
 		self.Z=Z
 	#sigmoid
@@ -36,14 +26,6 @@ class ActivationFunctions():
 		a=numpy.where(self.Z>0,self.Z,(0.01*self.Z))
 		return a
 
-#损失函数
-class LessFunctions():
-	def __index__(self,Yhat,Y):
-		self.Yhat=Yhat
-		self.Y=Y
-	def Less(self):
-		L=(self.Yhat-self.Y)**2
-		return L
 
 
 #DEBUG
