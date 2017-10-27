@@ -8,4 +8,4 @@
   ### LessFunction : 损失函数
 ## PositiveSpead : 正向传播流程
 ## ReverseTransmission : 反向传播流程
-  ###GradientDown : 梯度下降类
+   ### LessFunction : 梯度下降
