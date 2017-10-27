@@ -22,11 +22,11 @@ class ActivationFunction():
 		a=numpy.where(self.Z>0,self.Z,0)
 		return a
 	#LeakageRelu
-	def Leakage(self):
+	def LeakageRelu(self):
 		a=numpy.where(self.Z>0,self.Z,(0.01*self.Z))
 		return a
 
-
+ActivationFunctionType=["Sigmod","Tanh","Relu","LeakageRelu"]
 
 #DEBUG
 if __name__ == "__main__":
